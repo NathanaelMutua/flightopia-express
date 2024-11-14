@@ -10,6 +10,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { format } from "date-fns";
+import NavBar from "@/components/NavBar";
 
 const popularDestinations = [
   {
@@ -40,8 +41,10 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+      <NavBar />
+      
       {/* Hero Section */}
-      <div className="relative h-[70vh] flex items-center justify-center bg-[url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05')] bg-cover bg-center">
+      <div className="relative h-[70vh] flex items-center justify-center bg-[url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05')] bg-cover bg-center mt-16">
         <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
         
         <div className="relative z-10 container mx-auto px-4">
