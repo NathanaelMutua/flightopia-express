@@ -1,1 +1,1 @@
-# Welcome to your Lovable Project!
+A flight booking system
